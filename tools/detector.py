@@ -151,7 +151,7 @@ def detect_img(model, cfg, args, device):
     pred_dimensions_lhw = pred_dimensions.roll(shifts=1, dims=1)  # change dimension back to l,h,w
     box3d = smoke_coder.encode_box3d_img(K, pred_rotys, pred_dimensions_lhw, pred_locations)
     
-    plot_box(draw, None, box3d)
+    plot_box(draw, [], box3d)
         
     img_org.show()
 
