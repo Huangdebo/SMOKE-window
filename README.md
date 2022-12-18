@@ -14,7 +14,7 @@
 ## 训练
 
 1. 下载 KITTI 数据，并修改成一下结构，把图像列表放在 ImageSets 文件夹中，然后在 datasets 中创建 kitti 目录的软连接
-
+```
 kitti
 │──training
 │    ├──calib 
@@ -25,6 +25,7 @@ kitti
      ├──calib 
      ├──image_2
      └──ImageSets
+```
      
 2. 执行 tools/plain_train_net.py 即可
 
