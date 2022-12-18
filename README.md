@@ -5,7 +5,7 @@
 
 ##  添加功能
 
-- 省去 linux 下编译 DConv 的 cuda 代码，可以直接在 window 下训练和测试
+- 使用了 pytorch 自带的 DConv，省去 linux 下编译 DConv 的 cuda 代码，可以直接在 window 下训练和测试
 - 提供了重新训练的模型：[百度云盘](https://pan.baidu.com/s/1GQdUfi6W9VbsCpwshMxlxA)，提取码： hdbb
 - 改变训练循环，并使用梯度累加机制
 - 增添了 finetune 和 resume 等功能
