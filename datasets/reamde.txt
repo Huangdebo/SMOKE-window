@@ -1,6 +1,6 @@
 (1) create link to the path of KITTI:
 
-mklink /d your_path/SMOKE-hdb/datasets/kitti kitti_path
+mklink /d your_path/SMOKE-window/datasets/kitti kitti_path
 
 
 (2) kitti data folder format:
