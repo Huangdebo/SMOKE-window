@@ -46,9 +46,11 @@ kitti
 
 ![image](figures/result.png)
 
+本人电脑比较弱鸡，batch 很小，就只训练了 50 epoch ....
 
 ## acknowledge
 
+https://github.com/lzccccc/SMOKE
 
 
 
