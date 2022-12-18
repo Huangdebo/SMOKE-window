@@ -1,0 +1,17 @@
+(1) create link to the path of KITTI:
+
+mklink /d your_path/SMOKE-hdb/datasets/kitti kitti_path
+
+
+(2) kitti data folder format:
+
+kitti
+│──training
+│    ├──calib 
+│    ├──label_2 
+│    ├──image_2
+│    └──ImageSets
+└──testing
+     ├──calib 
+     ├──image_2
+     └──ImageSets
