@@ -1,5 +1,6 @@
 
 #  window 版 SMOKE
+好用的话记得给个 star 哈 ... 
 
 ![image](figures/result.gif)
 
