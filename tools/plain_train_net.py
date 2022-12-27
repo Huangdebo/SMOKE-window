@@ -32,7 +32,7 @@ def train(cfg, model, device, distributed):
     checkpointer = DetectronCheckpointer(
         cfg, model, optimizer, scheduler, output_dir, save_to_disk
     )
-    extra_checkpoint_data = checkpointer.load(cfg.MODEL.WEIGHT)
+    extra_checkpoint_data = checkpointer.load(cfg.MODEL.WEIGHT, resume=cfg.SOLVER.RESUME)
     arguments.update(extra_checkpoint_data)
     
     logger = logging.getLogger("smoke.train")
