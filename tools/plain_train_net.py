@@ -43,7 +43,7 @@ def train(cfg, model, device, distributed):
         logger.info("resume from  {}".format(cfg.MODEL.WEIGHT))
         optimizer = checkpointer.optimizer
         scheduler = checkpointer.scheduler
-        scheduler.last_epoch = arguments["epoch"]
+        scheduler.last_epoch = arguments["epoch"] - 1
 
 
     data_loader = make_data_loader(
